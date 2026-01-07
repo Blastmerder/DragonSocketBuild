@@ -12,4 +12,4 @@ COPY req.txt ./
 RUN mkdir mods && cd mods
 RUN while IFS= read -r line; do wget "$(echo "$line" | cut -d "'" -f 2)"; done < ./req.txt
 
-CMD ./run.sh
+CMD ["./run.sh"]
