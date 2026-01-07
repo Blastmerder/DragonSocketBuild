@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+EXPOSE 25565
 
 RUN apt-get update && apt-get install -y openjdk-21-jdk git wget
 
