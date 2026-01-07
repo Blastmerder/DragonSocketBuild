@@ -8,5 +8,8 @@ RUN wget https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.217/ne
 RUN java -jar neoforge-21.1.217-installer.jar --installServer
 RUN echo "eula=true" >> eula.txt
 COPY req.txt ./
-RUN mkdir mods && cd mods && for line in $(cat ./req.txt); wget $(echo $line | cut -d "'" -f 2); end
+
+RUN mkdir mods && cd mods
+RUN while IFS= read -r line; do wget "$(echo "$line" | cut -d "'" -f 2)"; done < ./req.txt
+
 CMD ./run.sh
