@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y openjdk-21-jdk git wget
 COPY req.txt ./
 
 WORKDIR /usr/local/app/mods
-RUN while IFS= read -r line; do wget "$(echo "$line" | cut -d "'" -f 2)"; done < ./req.txt
+RUN while IFS= read -r line; do wget $(echo "$line" | cut -d "'" -f 2); done < ./req.txt
 
 WORKDIR /usr/local/app
 
