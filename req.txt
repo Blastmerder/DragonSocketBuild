@@ -1,3 +1,6 @@
+https://cdn.modrinth.com/data/pcspJ4DD/versions/OqZ6P9RN/ad_astra_extra_additions-1.20.1-1.1.1.jar
+https://cdn.modrinth.com/data/XQDxCBVw/versions/HwUr2yWY/Ad-Astra-Giselle-Addon-forge-1.20.1-6.20.jar
+https://cdn.modrinth.com/data/3ufwT9JF/versions/Qf7QFXk2/ad_astra-forge-1.20.1-1.15.20.jar
 https://cdn.modrinth.com/data/XxWD5pD3/versions/7KVs6HMQ/appliedenergistics2-forge-15.4.10.jar
 https://cdn.modrinth.com/data/CwZ8q37q/versions/8IfOuySV/vsclaims-0.0.1.jar
 https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar
@@ -10,7 +13,6 @@ https://cdn.modrinth.com/data/k23mNPhZ/versions/A6aIqoJZ/aquamirae-forge-1.20.1-
 https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar
 https://cdn.modrinth.com/data/OezPBqKJ/versions/V9svOlsw/ArsCurios-1.20.1-2.0.0.jar
 https://cdn.modrinth.com/data/G6VHtQr4/versions/PKJi0BrP/Atlas%20Lib-1.20.1-1.1.12.jar
-https://cdn.modrinth.com/data/OfKzpbRU/versions/vLbvKK04/baguettelib-1.20.1-Forge-1.1.6.jar
 https://cdn.modrinth.com/data/MBAkmtvl/versions/8rz04Kha/balm-forge-1.20.1-7.3.38-all.jar
 https://cdn.modrinth.com/data/gJ5afkVv/versions/kW8DoegV/bellsandwhistles-0.4.5-1.20.x-Create6.0%2B.jar
 https://cdn.modrinth.com/data/uy4Cnpcm/versions/7eS5OIHj/Bookshelf-Forge-1.20.1-20.2.15.jar
@@ -24,12 +26,10 @@ https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-f
 https://cdn.modrinth.com/data/Wnxd13zP/versions/nAHGB5ls/Clumps-forge-1.20.1-12.0.0.4.jar
 https://cdn.modrinth.com/data/uXhSmPjd/versions/tuOTAf8L/ColdSweat-2.4.1.jar
 https://cdn.modrinth.com/data/e0M1UDsY/versions/lH1VBD4w/collective-1.20.1-8.25.jar
-https://cdn.modrinth.com/data/u58R1TMW/versions/dmW0aite/Connector-1.0.0-beta.48%2B1.20.1.jar
 https://cdn.modrinth.com/data/UT2M39wf/versions/z7s54cjL/copycats-3.0.7%2Bmc.1.20.1-forge.jar
 https://cdn.modrinth.com/data/ziOp6EO8/versions/QQhzscay/Corgilib-Forge-1.20.1-4.0.3.4.jar
 https://cdn.modrinth.com/data/rLLJ1OZM/versions/6rPDKAT8/coroutil-forge-1.20.1-1.3.7.jar
-https://cdn.modrinth.com/data/pJGcKPh1/versions/gC9IUqZM/corpsecurioscompat-1.20.1-Forge-4.0.1.jar
-https://cdn.modrinth.com/data/WrpuIfhw/versions/7fc0hJN6/corpse-forge-1.20.1-1.0.23.jar
+https://cdn.modrinth.com/data/bFyxs7LI/versions/ojF27UGr/create_ad_astra_recipes-1.0.0-forge-1.20.1.jar
 https://cdn.modrinth.com/data/mYGTCuZY/versions/DjaJgxhC/createappliedkinetics-1.5.1-1.20.1.jar
 https://cdn.modrinth.com/data/GWp4jCJj/versions/ZRgu5o3x/createbigcannons-5.11.4-mc.1.20.1-forge.jar
 https://cdn.modrinth.com/data/btq68HMO/versions/Z4kwyYKV/create_central_kitchen-1.20.1-for-create-6.0.8-1.5.0.jar
@@ -51,6 +51,7 @@ https://cdn.modrinth.com/data/sH9tXU9f/versions/SZfHDdfk/createliquidfuel-2.1.1-
 https://cdn.modrinth.com/data/Soft45xC/versions/VYcLBgY3/createmetallurgy-1.0.1-1.20.1.jar
 https://cdn.modrinth.com/data/FTeXqI9v/versions/7vnwbouk/create-new-age-1.2.0%2Bforge-mc1.20.1.jar
 https://cdn.modrinth.com/data/cpqKG67r/versions/Rfwgb1aK/create_pattern_schematics-1.3.3.jar
+https://cdn.modrinth.com/data/hezpkOYP/versions/ELVwMGmV/Create%20Quality%20of%20Life-1.20.1-1.6.2.jar
 https://cdn.modrinth.com/data/BLu2Yqfq/versions/ruxlsWci/create_radar-0.4.6%2Bmc1.20.1.jar
 https://cdn.modrinth.com/data/G3K7UdxY/versions/jbgiqmqD/create_repair-forge-1.20.1-1.2.1-all.jar
 https://cdn.modrinth.com/data/ZzjhlDgM/versions/I6GhUCyk/Steam_Rails-1.7.2%2Bforge-mc1.20.1.jar
@@ -62,10 +63,12 @@ https://cdn.modrinth.com/data/h0bu4oDk/versions/t7wnpqLY/create_train_parts-0.4.
 https://cdn.modrinth.com/data/H6bJ8Ju4/versions/8XoqeODw/create_tweaked_controllers-1.20.1-1.2.7.jar
 https://cdn.modrinth.com/data/wQpKGqNJ/versions/8qDfChgt/create_waystones_recipes-1.0.1.b.jar
 https://cdn.modrinth.com/data/zBuk6egG/versions/g0zxx7Ku/create_winery-2.0.2-forge-1.20.1.jar
+https://cdn.modrinth.com/data/OeGdeWEj/versions/LTOnyKql/create_wizardry-1.20.1-0.4.2.jar
 https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar
 https://cdn.modrinth.com/data/kU1G12Nn/versions/9LgyB6Yb/createaddition-1.20.1-1.3.3.jar
 https://cdn.modrinth.com/data/z611fdf7/versions/L3PbtqgG/createnuclear-1.3.1-forge.jar
 https://cdn.modrinth.com/data/OsZiaDHq/versions/J9tluyYl/CreativeCore_FORGE_v2.12.38_mc1.20.1.jar
+https://cdn.modrinth.com/data/9GAv60Rl/versions/XoK8OJ5Z/crushedastra-1.0.6-1.20.1.jar
 https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar
 https://cdn.modrinth.com/data/mJhVtlhq/versions/w6xhtWlK/DailyBoss-1.20.1-1.8.jar
 https://cdn.modrinth.com/data/z2XEADmE/versions/hym6gwHe/Data_Anchor-forge-1.20.1-1.0.0.20.jar
@@ -76,7 +79,6 @@ https://cdn.modrinth.com/data/BLOykUqo/versions/1x3pOAo1/Evolved%20Mekanism-1.20
 https://cdn.modrinth.com/data/JiOqfoFM/versions/leiXZvDb/ExtendedAE-1.20-1.4.12-forge.jar
 https://cdn.modrinth.com/data/R2OftAxM/versions/CsjS7EkP/FarmersDelight-1.20.1-1.3.2.jar
 https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar
-https://cdn.modrinth.com/data/Aqlf1Shp/versions/XweDEycJ/fabric-api-0.92.6%2B1.11.14%2B1.20.1.jar
 
 
 
@@ -87,6 +89,7 @@ https://cdn.modrinth.com/data/7tG215v7/versions/yLwvjuvy/gtceu-1.20.1-7.5.3.jar
 https://cdn.modrinth.com/data/Ck4E7v7R/versions/i7Tp1AHw/guideme-20.1.15.jar
 https://cdn.modrinth.com/data/mGwAPysv/versions/KlKH4KyH/ice_and_fire_delight-forge-1.20.1-0.2.5.jar
 https://cdn.modrinth.com/data/LVnvHVBp/versions/EzN8KQYF/iceandfire-2.1.13-1.20.1-beta-5.jar
+https://cdn.modrinth.com/data/aw5e7yPa/versions/fkpYeaSE/ice_and_fire_spellbooks-2.3.2-1.20.1.jar
 https://cdn.modrinth.com/data/6n6toXVb/versions/fVzB5eJ2/Iglee%27s%20Library-1.20.1-1.2.7.jar
 https://cdn.modrinth.com/data/tIm2nV03/versions/WUzj4tgJ/ImmersiveEngineering-1.20.1-10.2.0-183.jar
 https://cdn.modrinth.com/data/KpICtuVx/versions/DyzZZhxQ/incontrol-1.20-9.4.6.jar
@@ -94,6 +97,8 @@ https://cdn.modrinth.com/data/USZyvOJq/versions/QVtCPbhS/insanelib-1.23.4.4.jar
 https://cdn.modrinth.com/data/MyfCcqiE/versions/EScBvcOc/create_interactive-1.2.1_1.20.1-forge.jar
 https://cdn.modrinth.com/data/r4Knci2k/versions/3Gpm5qDT/interiors-1.20.1-forge-0.6.0.jar
 https://cdn.modrinth.com/data/9nfaJPtX/versions/FPYSRrdq/irons_lib-1.20.1-1.0.2.jar
+https://cdn.modrinth.com/data/s4OWxYQQ/versions/6x6YEfIw/irons_spellbooks-1.20.1-3.16.0.jar
+https://cdn.modrinth.com/data/XLsvc8Ld/versions/a6NiiKTW/irons_spells_js-1.20.1-6.5-3.14-r2-release.jar
 https://cdn.modrinth.com/data/nvQzSEkH/versions/LecuGude/Jade-1.20.1-Forge-11.13.2.jar
 https://cdn.modrinth.com/data/u6dRKJwZ/versions/RTFeXsvE/jei-1.20.1-forge-15.20.0.130.jar
 https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar
@@ -101,10 +106,11 @@ https://cdn.modrinth.com/data/T38eAZQC/versions/5vppyenb/kubejs-create-forge-200
 https://cdn.modrinth.com/data/apt5xJoR/versions/NNnpTXLw/kubejsdelight-1.1.2.jar
 https://cdn.modrinth.com/data/umyGl7zF/versions/hVR2xUSr/kubejs-forge-2001.6.5-build.26.jar
 https://cdn.modrinth.com/data/46KJle7n/versions/C3H0azzB/L_Enders_Cataclysm-3.31.jar
-https://cdn.modrinth.com/data/D157Rgyf/versions/ETnNoR2R/lexiconfig-forge-1.4.21-epic.jar
 https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar
 https://cdn.modrinth.com/data/PYQD8noM/versions/BZzTRseC/majrusz-library-forge-1.20.1-7.0.8.jar
+https://cdn.modrinth.com/data/GGDBwjOg/versions/IH8yR3yr/majruszs-difficulty-forge-1.20.1-1.9.10.jar
 https://cdn.modrinth.com/data/qzMgWNlz/versions/myFxz0vQ/mebahel-zombie-horde-1.2.0-1.20.1.jar
+https://cdn.modrinth.com/data/KQwxMOPD/versions/ScHGqHJq/mekanism-ad-astra-ores-forge-1.20.1-1.1.0.jar
 https://cdn.modrinth.com/data/a6F3uASn/versions/RFiZ24he/MekanismAdditions-1.20.1-10.4.16.80.jar
 https://cdn.modrinth.com/data/E3sGVcD8/versions/rsewsOBG/mekanismcovers-1.3-BETA%2B1.20.jar
 https://cdn.modrinth.com/data/OFVYKsAk/versions/Th4Czz4N/MekanismGenerators-1.20.1-10.4.16.80.jar
@@ -122,8 +128,9 @@ https://cdn.modrinth.com/data/fU7jbFHc/versions/7sZmDObM/obscure_api-18.jar
 https://cdn.modrinth.com/data/gF3BGWvG/versions/BOfbzRMc/open-parties-and-claims-forge-1.20.1-0.27.5.jar
 https://cdn.modrinth.com/data/Fsvx2bdR/versions/uEY441aP/ParCool-1.20.1-3.4.3.3.jar
 https://cdn.modrinth.com/data/nU0bVIaL/versions/94dtOLgZ/Patchouli-1.20.1-85-FORGE.jar
+https://cdn.modrinth.com/data/IHyWDPnp/versions/oqpXKch5/perspatium-1.20.1-1.2.0.jar
+https://cdn.modrinth.com/data/NfrID7Y9/versions/joMq8m0L/planets%2B-bv1.7.5-1.20x.jar
 https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar
-https://cdn.modrinth.com/data/eWiBLJ9R/versions/BElWxOs7/powergrid-mc1.20.1-0.5.5.1.jar
 https://cdn.modrinth.com/data/xs8lcts0/versions/kPQmixfM/prma-1.20.1-0.4.4-cr6.0-SIMPLE-beta-all.jar
 https://cdn.modrinth.com/data/sDBUwZVY/versions/7gydEbqt/rechiseledae2-forge-1.20-1.20.1-1.1.0.jar
 https://cdn.modrinth.com/data/1Tpwnc5h/versions/knE8vikj/rechiseledae-1.0.0-forge-mc1.20.1.jar
@@ -135,8 +142,10 @@ https://cdn.modrinth.com/data/G1hIVOrD/versions/OhsHaCcW/resourcefullib-forge-1.
 https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar
 https://cdn.modrinth.com/data/B3pb093D/versions/PdGBsNte/ritchiesprojectilelib-2.1.1%2Bmc.1.20.1-forge.jar
 https://cdn.modrinth.com/data/2eT495vq/versions/Yx85DYaG/saturn-mc1.20.1-0.1.3.jar
+https://cdn.modrinth.com/data/tBbdvEJc/versions/c0XpNY2J/sculkhorde-1.20.1-0.12.2.jar
 https://cdn.modrinth.com/data/9eGKb6K1/versions/8jZe6s12/voicechat-forge-1.20.1-2.6.18.jar
 https://cdn.modrinth.com/data/GmjmRQ0A/versions/KWLI8Ng7/sliceanddice-forge-3.6.0.jar
+https://cdn.modrinth.com/data/l7YxzukZ/versions/RaKzYFbP/sons-of-sins-1.20.1-2.1.11.jar
 https://cdn.modrinth.com/data/s85zLEDe/versions/2xqEtadk/sophisticatedbackpackscreateintegration-1.20.1-0.1.7.112.jar
 https://cdn.modrinth.com/data/TyCTlI4b/versions/sRmNTGgA/sophisticatedbackpacks-1.20.1-3.24.55.1891.jar
 https://cdn.modrinth.com/data/nmoqTijg/versions/mgsi3cCC/sophisticatedcore-1.20.1-1.3.52.2018.jar
@@ -157,8 +166,8 @@ https://cdn.modrinth.com/data/O3HDffUR/versions/Y9ER59oU/The-Hordes-1.20.1-1.6.3
 https://cdn.modrinth.com/data/SzzJttH8/versions/yOVIzIJR/tacz-1.20.1-1.1.8-hotfix.jar
 https://cdn.modrinth.com/data/FXDpZRJG/versions/i5GpwEF8/trackwork-1.20.1-1.2.3.jar
 https://cdn.modrinth.com/data/V5ujR2yw/versions/pOkdwuUh/valkyrienskies-120-2.4.11.jar
-https://cdn.modrinth.com/data/Wa9vzNNU/versions/c1nQyYLn/VibrativeVoice-forge-1.20.1-1.2.0.jar
 https://cdn.modrinth.com/data/LOpKHB2A/versions/sKoHLGbK/waystones-forge-1.20.1-14.1.20.jar
+https://cdn.modrinth.com/data/nTApwmMc/versions/Rnn55z6s/wind_spellbooks-1.20.1-1.0.0.jar
 https://cdn.modrinth.com/data/1bokaNcj/versions/LHQz9XA1/xaerominimap-forge-1.20.1-26.1.0.jar
 https://cdn.modrinth.com/data/NcUtCpym/versions/2QCjQ4y4/xaeroworldmap-forge-1.20.1-1.41.0.jar
 https://cdn.modrinth.com/data/1eAoo2KR/versions/sCWgXDYQ/yet_another_config_lib_v3-3.6.6%2B1.20.1-forge.jar
