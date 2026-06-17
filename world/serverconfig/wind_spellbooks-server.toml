@@ -1,0 +1,5 @@
+
+[Worldgen]
+	#The weight of the tavern spawning in a village. Default: 4
+	tavernWeight = 4
+
