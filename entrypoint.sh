@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ "${RCON_PASSWORD}" = "changeme" ]; then
   echo "[entrypoint] WARNING: RCON_PASSWORD is still the default 'changeme'."
   echo "             Set a long random password in your .env before exposing the server."
