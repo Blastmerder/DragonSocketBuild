@@ -28,12 +28,17 @@ set_prop server-port        "${MC_PORT}"
 
 ARGS_FILE="${ARGS_FILE:-}"
 if [ -z "$ARGS_FILE" ]; then
-  ARGS_FILE=$(find libraries/net/minecraftforge/forge -name unix_args.txt 2>/dev/null | head -n 1)
+  # ИСПРАВЛЕНО: изменен путь поиска под структуру папок NeoForge
+  ARGS_FILE=$(find libraries/net/neoforged/neoforge -name unix_args.txt 2>/dev/null | head -n 1)
 fi
+
 if [ -z "$ARGS_FILE" ] || [ ! -f "$ARGS_FILE" ]; then
-  echo "[entrypoint] ERROR: не найден unix_args.txt — Forge установлен в образ?"
+  # ИСПРАВЛЕНО: изменен текст и добавлен exit 1 для остановки контейнера
+  echo "[entrypoint] ERROR: не найден unix_args.txt — NeoForge установлен в образ?" >&2
+  exit 1
 fi
-echo "[entrypoint] Forge args: ${ARGS_FILE}"
+
+echo "[entrypoint] NeoForge args: ${ARGS_FILE}"
 
 # ---------- JVM flags ----------
 # Aikar's well-known G1GC tuning for Minecraft (big win for heavy modpacks).
@@ -58,7 +63,7 @@ rm -f "$CONSOLE"; mkfifo "$CONSOLE"
 service cron start || cron
 
 echo "[entrypoint] Starting Forge with ${MEMORY} heap..."
-exec java "${JVM[@]}" < "$CONSOLE" &
+exec java "${JVM[@]}" "@${ARGS_FILE}" < "$CONSOLE" &
 SERVER_PID=$!
 
 # Hold the write end open so the server never receives EOF on stdin,
