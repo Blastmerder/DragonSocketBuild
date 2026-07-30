@@ -36,7 +36,7 @@ ENV MC_PORT=25565
 ENV VOICE_PORT=24454
 
 # Изменять при сборке проекта
-ENV filename=neoforge-21.1.247-installer.jar
+ENV filename=forge-1.20.1-47.4.20-installer.jar
 
 # Требуют изменений
 
@@ -65,7 +65,7 @@ RUN chmod +x ./entrypoint.sh backup.sh
 
 RUN echo ===============Инициализация Сервера===============
 
-RUN wget https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.247/$filename
+RUN wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.20/$filename
 RUN java -jar $filename --installServer
 RUN echo "eula=true" >> eula.txt
 
