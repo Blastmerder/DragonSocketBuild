@@ -14,9 +14,6 @@ COPY crontab /etc/cron.d/my-cron-jobs
 # Настройка прав: владельцем должен быть root, права на чтение/запись — только у владельца
 RUN chmod 0644 /etc/cron.d/my-cron-jobs
 
-# Регистрация задач в системе
-RUN crontab /etc/cron.d/my-cron-jobs
-
 WORKDIR /usr/local/app/mods
 
 COPY req.txt /tmp/req.txt
