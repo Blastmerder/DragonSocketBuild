@@ -32,4 +32,4 @@ RUN echo "eula=true" >> eula.txt
 
 EXPOSE 25565 25575
 
-CMD ["./entrypoint.sh"]
+CMD ["sudo usr/local/app/entrypoint.sh"]
