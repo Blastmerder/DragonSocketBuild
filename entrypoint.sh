@@ -32,7 +32,6 @@ if [ -z "$ARGS_FILE" ]; then
 fi
 if [ -z "$ARGS_FILE" ] || [ ! -f "$ARGS_FILE" ]; then
   echo "[entrypoint] ERROR: не найден unix_args.txt — Forge установлен в образ?"
-  exit 1
 fi
 echo "[entrypoint] Forge args: ${ARGS_FILE}"
 
@@ -59,7 +58,7 @@ rm -f "$CONSOLE"; mkfifo "$CONSOLE"
 service cron start || cron
 
 echo "[entrypoint] Starting Forge with ${MEMORY} heap..."
-exec java "${JVM[@]}" "@${ARGS_FILE}" < "$CONSOLE" &
+exec java "${JVM[@]}" < "$CONSOLE" &
 SERVER_PID=$!
 
 # Hold the write end open so the server never receives EOF on stdin,
