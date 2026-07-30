@@ -1,8 +1,8 @@
 ## Header
 - [Installation](#installation)
-- [Run](#How to run)
+- [Run](#How_to_run)
 - [Update](#update)
-- [Stop](#How to stop)
+- [Stop](#How_to_stop)
 
 ## installation
 ```bash

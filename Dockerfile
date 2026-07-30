@@ -4,6 +4,8 @@ FROM ubuntu:latest
 #                        Приготоволение                           #
 ###################################################################
 
+RUN echo ===============Установка Пакетов===============
+
 # Установка зависимостей
 RUN apt-get update && apt-get install -y --no-install-recommends \
 							 openjdk-21-jdk-headless \
@@ -14,7 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 							 ca-certificates
 RUN rm -rf /var/lib/apt/lists/*
 
-# Копирование файлов
+RUN echo ===============Копирование файлов===============
 COPY crontab /etc/cron.d/my-cron-jobs
 
 WORKDIR /usr/local/app/mods
@@ -45,6 +47,7 @@ ENV RCON_PASSWORD=changeme
 #                       Применение файлов                         #
 ###################################################################
 
+RUN echo ===============Установка Модификаций и Создания cron job===============
 # Загрузка модификаций
 WORKDIR /usr/local/app/mods
 
@@ -59,6 +62,8 @@ RUN chmod +x ./entrypoint.sh backup.sh
 ###################################################################
 #                            Запуск                               #
 ###################################################################
+
+RUN echo ===============Инициализация Сервера===============
 
 RUN wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.20/$filename
 RUN java -jar $filename --installServer

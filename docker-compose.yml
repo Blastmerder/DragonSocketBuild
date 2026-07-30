@@ -1,5 +1,5 @@
 services:
- config-sync:
+  config-sync:
     image: alpine/git:latest
     entrypoint: ["/bin/sh", "-c"]
     command:
@@ -24,7 +24,7 @@ services:
       CONFIG_BRANCH: ${CONFIG_BRANCH:-main}
     volumes:
       - ${CONFIG_DIR:-./config}:/config
- minecraft:
+  minecraft:
     image: ${IMAGE:?Требуется IMAGE в env-файле пример ссылки ghcr.io/логин/пакет:тег. Необходим для запуска сервера}
     container_name: ${CONTAINER_NAME:-mc-forge}
     restart: unless-stopped
