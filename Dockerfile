@@ -21,10 +21,7 @@ WORKDIR /usr/local/app/mods
 COPY req.txt /tmp/req.txt
 
 WORKDIR /usr/local/app
-COPY server.properties backup.sh  entrypoint ./
-
-WORKDIR /usr/local/app
-COPY server.properties backup.sh  entrypoint ./
+COPY server.properties backup.sh  entrypoint.sh ./
 
 ###################################################################
 #                           Параметры                             #
