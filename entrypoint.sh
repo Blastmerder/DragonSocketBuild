@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /usr/local/app || exit 1
+
 if [ "${RCON_PASSWORD}" = "changeme" ]; then
   echo "[entrypoint] WARNING: RCON_PASSWORD is still the default 'changeme'."
   echo "             Set a long random password in your .env before exposing the server."
@@ -24,6 +26,16 @@ set_prop rcon.password      "${RCON_PASSWORD}"
 set_prop broadcast-rcon-to-ops true
 set_prop server-port        "${MC_PORT}"
 
+ARGS_FILE="${ARGS_FILE:-}"
+if [ -z "$ARGS_FILE" ]; then
+  ARGS_FILE=$(find libraries/net/minecraftforge/forge -name unix_args.txt 2>/dev/null | head -n 1)
+fi
+if [ -z "$ARGS_FILE" ] || [ ! -f "$ARGS_FILE" ]; then
+  echo "[entrypoint] ERROR: не найден unix_args.txt — Forge установлен в образ?"
+  exit 1
+fi
+echo "[entrypoint] Forge args: ${ARGS_FILE}"
+
 # ---------- JVM flags ----------
 # Aikar's well-known G1GC tuning for Minecraft (big win for heavy modpacks).
 AIKAR=(
@@ -44,7 +56,7 @@ JVM=( "-Xms${MEMORY}" "-Xmx${MEMORY}" "${AIKAR[@]}" )
 CONSOLE=/tmp/mc-console
 rm -f "$CONSOLE"; mkfifo "$CONSOLE"
 
-service cron start
+service cron start || cron
 
 echo "[entrypoint] Starting Forge with ${MEMORY} heap..."
 java "${JVM[@]}" "@${ARGS_FILE}" nogui < "$CONSOLE" &
@@ -59,8 +71,8 @@ CAT_PID=$!
 graceful_stop() {
   echo "[entrypoint] Stop signal received — saving world and shutting down..."
   echo "stop" >&3 || true
-  ./backup.sh 
   wait "$SERVER_PID" 2>/dev/null || true
+  ./backup.sh || true 
 }
 trap graceful_stop SIGTERM SIGINT
 

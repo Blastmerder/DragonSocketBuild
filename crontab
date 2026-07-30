@@ -1,1 +1,1 @@
-0 1 * * * /usr/local/app/backup.sh 2>&1
+0 1 * * * root cd /usr/loacl/app && ./backup.sh 2>&1

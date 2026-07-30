@@ -1,4 +1,8 @@
-# How to install and run
+## Header
+- [Installation](#installation)
+- [Run](#How to run)
+- [Update](#update)
+- [Stop](#How to stop)
 
 ## installation
 ```bash
@@ -7,7 +11,16 @@ docker pull ghcr.io/blastmerder/dragonsocketbuild:main
 
 ## How to run
 ```bash
-docker run -p 25565:25565 -v $(pwd)/world:/usr/local/app/world ghcr.io/blastmerder/dragonsocketbuild:main
+docker compose --env-file .env.prod up -d
+docker compose --env-file .env.prod logs -f minecraft
 ```
 
-If you on windows, you need to write your absolute path to world folder instade `$(pwd)/world`
+## How to update
+```bash
+docker compose --env-file .env.prod pull && docker compose --env-file .env.prod up -d
+```
+
+## How to stop
+```bash
+docker compose --env-file .env.prod down
+```

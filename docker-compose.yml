@@ -1,0 +1,70 @@
+services:
+ config-sync:
+    image: alpine/git:latest
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        if [ -z "$$CONFIG_REPO" ]; then
+          echo "[config-sync] CONFIG_REPO не определён → скип"
+          exit 0
+        fi
+
+        if [ -d /configs/.git ]; then
+          echo "[config-sync] Обновляю конфиги из $$CONFIG_REPO ($$CONFIG_BRANCH)"
+          cd /configs \
+            && git fetch --depth 1 origin "$$CONFIG_BRANCH" \
+            && git reset --hard "origin/$$CONFIG_BRANCH"
+        else
+          echo "[config-sync] Клонирую $$CONFIG_REPO ($$CONFIG_BRANCH)"
+          rm -rf /configs/* /configs/.[!.]* 2>/dev/null || true
+          git clone --depth 1 -b "$$CONFIG_BRANCH" "$$CONFIG_REPO" /configs
+        fi
+    environment:
+      CONFIG_REPO: ${CONFIG_REPO:-}
+      CONFIG_BRANCH: ${CONFIG_BRANCH:-main}
+    volumes:
+      - ${CONFIG_DIR:-./config}:/config
+ minecraft:
+    image: ${IMAGE:?Требуется IMAGE в env-файле пример ссылки ghcr.io/логин/пакет:тег. Необходим для запуска сервера}
+    container_name: ${CONTAINER_NAME:-mc-forge}
+    restart: unless-stopped
+    stop_grace_period: 2m
+    stdin_open: true
+    tty: true
+    depends_on:
+      config-sync:
+        condition: service_completed_successfully
+    ports:
+      - "${RCON_PORT:-25575}:${RCON_PORT:-25575}"
+      - "${MC_PORT:-25565}:${MC_PORT:-25565}"
+      - "${VOICE_PORT:-24454}:${VOICE_PORT:-24454}"
+    environment:
+      EULA: ${EULA:-false}
+      MEMORY: ${MEMORY:-8G}
+      MC_PORT: ${MC_PORT:-25565}
+      RCON_PASSWORD: ${RCON_PASSWORD:?Задай RCON_PASSWORD в env-файле}
+      RCON_PORT: ${RCON_PORT:-25575}
+      TZ: ${TZ:-UTC}
+      VOICE_PORT: ${VOICE_PORT:-24454}
+      HOME: /usr/local
+    volumes: 
+      - ${WORLD_DIR:-./world}:/usr/local/app/world
+      - ${CONFIG_DIR:-./config}:/usr/local/app/config
+      - ${SSH_DIR:?Не найден ssh ключ для синхронизации с сервером. Точно ли указан и/или создан путь до ключа/сам ключ?}:/usr/local/.ssh
+    healthcheck:
+      test: ["CMD-SHELL", "timeout 3 bash -c 'exec 3<>/dev/tcp/127.0.0.1/'$${MC_PORT} || exit 1"]
+      interval: 30s
+      timeout: 5s
+      start_period: 3m
+      retries: 3
+  rcon:
+    image: itzg/rcon-cli:latest
+    profiles: ["rcon"]
+    environment:
+      RCON_HOST: minecraft
+      RCON_PASSWORD: ${RCON_PASSWORD}
+      RCON_PORT: ${RCON_PORT:-25575}
+    depends_on:
+      - minecraft
+    stdin_open: true
+    tty: true
