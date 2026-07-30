@@ -24,6 +24,8 @@ WORKDIR /usr/local/app
 COPY server.properties ./
 COPY entrypoint.sh ./
 
+RUN chmod +x ./entrypoint.sh
+
 ENV filename=forge-1.20.1-47.4.20-installer.jar
 
 RUN wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.20/$filename
@@ -32,4 +34,5 @@ RUN echo "eula=true" >> eula.txt
 
 EXPOSE 25565 25575
 
-CMD ["sudo /usr/local/app/entrypoint.sh"]
+ENTRYPOINT ["./entrypoint.sh"]
+
