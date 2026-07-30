@@ -59,7 +59,7 @@ rm -f "$CONSOLE"; mkfifo "$CONSOLE"
 service cron start || cron
 
 echo "[entrypoint] Starting Forge with ${MEMORY} heap..."
-java "${JVM[@]}" < "$CONSOLE" &
+exec java "${JVM[@]}" "@${ARGS_FILE}" < "$CONSOLE" &
 SERVER_PID=$!
 
 # Hold the write end open so the server never receives EOF on stdin,
