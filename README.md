@@ -3,6 +3,7 @@
 - [Run](#How_to_run)
 - [Update](#update)
 - [Stop](#How_to_stop)
+- [RCON](#rocn)
 
 ## installation
 ```bash
@@ -23,4 +24,9 @@ docker compose --env-file .env.prod pull && docker compose --env-file .env.prod 
 ## How to stop
 ```bash
 docker compose --env-file .env.prod down
+```
+
+## rocn
+```bash
+docker compose --env-file .env.prod --profile rcon run --rm rcon
 ```

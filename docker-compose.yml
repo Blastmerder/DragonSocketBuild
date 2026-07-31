@@ -39,8 +39,7 @@ services:
       - "${MC_PORT:-25565}:${MC_PORT:-25565}"
       - "${VOICE_PORT:-24454}:${VOICE_PORT:-24454}/udp"
     environment:
-      EULA: ${EULA:-false}
-      MEMORY: ${MEMORY:-8G}
+      MEMORY: ${MEMORY:-3G}
       MC_PORT: ${MC_PORT:-25565}
       RCON_PASSWORD: ${RCON_PASSWORD:?Задай RCON_PASSWORD в env-файле}
       RCON_PORT: ${RCON_PORT:-25575}
@@ -50,6 +49,7 @@ services:
     volumes: 
       - ${WORLD_DIR:-./world}:/usr/local/app/world
       - ${CONFIG_DIR:-./config}:/usr/local/app/config
+      - ${KUBEJS_DIR:-./kubejs}:/usr/local/app/kubejs
       - ${SSH_DIR:?Не найден ssh ключ для синхронизации с сервером. Точно ли указан и/или создан путь до ключа/сам ключ?}:/usr/local/.ssh
     healthcheck:
       test: ["CMD-SHELL", "timeout 3 bash -c 'exec 3<>/dev/tcp/127.0.0.1/'$${MC_PORT} || exit 1"]
