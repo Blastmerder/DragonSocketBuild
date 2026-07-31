@@ -78,6 +78,7 @@ https://cdn.modrinth.com/data/OrB5XFtI/versions/CK9aNyfU/CustomMachinery-neoforg
 https://cdn.modrinth.com/data/DyhRu9yo/versions/GSQUhzdw/CustomMeteorJS-0.0.3.jar
 https://cdn.modrinth.com/data/DUXvHuhO/versions/NjKJP5m4/emotetweaks-neoforge-1.0.4.jar
 https://cdn.modrinth.com/data/pZ2wrerK/versions/fu6N0NgM/emotecraft-for-MC1.21.1-2.4.12-neoforge.jar
+https://cdn.modrinth.com/data/TDdoftI1/versions/LtzH8Qax/enhancedai-4.2.1.2.jar
 https://cdn.modrinth.com/data/BLOykUqo/versions/3vuQZTlx/Evolved%20Mekanism-1.21.1-1.2.1-fix3.jar
 https://cdn.modrinth.com/data/Wq5SjeWM/versions/E22W2MsG/fancymenu_neoforge_3.9.1_MC_1.21.1.jar
 https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar
@@ -91,7 +92,7 @@ https://cdn.modrinth.com/data/s3dmwKy5/versions/S2TfWrZR/GlitchCore-neoforge-1.2
 https://cdn.modrinth.com/data/Ck4E7v7R/versions/bFr2FBaJ/guideme-21.1.16.jar
 https://cdn.modrinth.com/data/6n6toXVb/versions/5mObcFWo/igleelib-1.21.1-1.2.7.jar
 https://cdn.modrinth.com/data/KpICtuVx/versions/TBI4EWjs/incontrol-1.21-10.2.6.jar
-https://cdn.modrinth.com/data/USZyvOJq/versions/y18hrqXS/insanelib-2.4.18.1.jar
+https://cdn.modrinth.com/data/USZyvOJq/versions/8yaoLcI0/insanelib-2.4.21.3.jar
 https://cdn.modrinth.com/data/xuDOzCLy/versions/Z9s9lM56/JadeAddons-1.21.1-NeoForge-6.1.0.jar
 https://cdn.modrinth.com/data/nvQzSEkH/versions/yd8FKCmx/Jade-1.21.1-NeoForge-15.10.5.jar
 https://cdn.modrinth.com/data/u6dRKJwZ/versions/iiCpE7cU/jei-1.21.1-neoforge-19.27.0.343.jar
@@ -184,3 +185,5 @@ https://cdn.modrinth.com/data/t5FRdP87/versions/AvedwcIe/YungsBetterWitchHuts-1.
 https://cdn.modrinth.com/data/Ht4BfYp6/versions/urkCzBf6/YungsBridges-1.21.1-NeoForge-5.1.1.jar
 https://cdn.modrinth.com/data/MVARlG2f/versions/9GjNW2Gf/Zeta-1.1-40.jar
 https://cdn.modrinth.com/data/mMTOWOaA/versions/KNtnADP6/zombieawareness-neoforge-1.21.0-1.13.2.jar
+https://cdn.modrinth.com/data/GEjGqQ62/versions/t5ewfYPY/zombiehaveears-1.1.2.jar
+https://cdn.modrinth.com/data/peOlpGgK/versions/A7J8v5Ta/zombiehaveeyes-1.5.2.jar
