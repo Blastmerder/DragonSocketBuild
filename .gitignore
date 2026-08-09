@@ -1,4 +1,5 @@
 world
 config
 ssh_dir
+kubejs
 .*

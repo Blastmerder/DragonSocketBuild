@@ -44,7 +44,7 @@ echo "[entrypoint] NeoForge args: ${ARGS_FILE}"
 # Aikar's well-known G1GC tuning for Minecraft (big win for heavy modpacks).
 AIKAR=(
   -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200
-  -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch
+  -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+UseStringDeduplication
   -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M
   -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4
   -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90
