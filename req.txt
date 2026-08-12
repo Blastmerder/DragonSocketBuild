@@ -87,7 +87,6 @@ https://cdn.modrinth.com/data/B0g2vT6l/versions/S5FnErRw/rechiseled-1.2.5-neofor
 https://cdn.modrinth.com/data/OrB5XFtI/versions/CK9aNyfU/CustomMachinery-neoforge-1.21.1-0.10.69.jar
 https://cdn.modrinth.com/data/9s6osm5g/versions/izKINKFg/cloth-config-15.0.140-neoforge.jar
 https://cdn.modrinth.com/data/qnQsVE2z/versions/yvp3Jbmk/Quark-4.1-482.jar
-https://cdn.modrinth.com/data/AANobbMI/versions/jfHZ5pyN/sodium-neoforge-0.8.13-beta.2%2Bmc1.21.1.jar
 https://cdn.modrinth.com/data/BQhuHQo4/versions/xavD8Lt3/silent-lib-1.21.1-neoforge-10.6.0.jar
 https://cdn.modrinth.com/data/EmNhnNnt/versions/KSgki4uc/alexsmobs-1.22.17.jar
 https://cdn.modrinth.com/data/EXzIPtJo/versions/dJ9RP7Em/replantingcrops-1.21.1-5.5.jar
