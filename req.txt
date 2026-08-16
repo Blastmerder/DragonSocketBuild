@@ -74,6 +74,7 @@ https://cdn.modrinth.com/data/z611fdf7/versions/waO2BSHO/createnuclear-1.3.2-bet
 https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar
 https://cdn.modrinth.com/data/OrB5XFtI/versions/CK9aNyfU/CustomMachinery-neoforge-1.21.1-0.10.69.jar
 https://cdn.modrinth.com/data/DyhRu9yo/versions/GSQUhzdw/CustomMeteorJS-0.0.3.jar
+https://cdn.modrinth.com/data/pZ2wrerK/versions/fu6N0NgM/emotecraft-for-MC1.21.1-2.4.12-neoforge.jar
 https://cdn.modrinth.com/data/TDdoftI1/versions/LtzH8Qax/enhancedai-4.2.1.2.jar
 https://cdn.modrinth.com/data/BLOykUqo/versions/3vuQZTlx/Evolved%20Mekanism-1.21.1-1.2.1-fix3.jar
 https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar
@@ -85,6 +86,9 @@ https://cdn.modrinth.com/data/Ck4E7v7R/versions/bFr2FBaJ/guideme-21.1.16.jar
 https://cdn.modrinth.com/data/6n6toXVb/versions/5mObcFWo/igleelib-1.21.1-1.2.7.jar
 https://cdn.modrinth.com/data/KpICtuVx/versions/TBI4EWjs/incontrol-1.21-10.2.6.jar
 https://cdn.modrinth.com/data/USZyvOJq/versions/8yaoLcI0/insanelib-2.4.21.3.jar
+https://cdn.modrinth.com/data/xuDOzCLy/versions/Z9s9lM56/JadeAddons-1.21.1-NeoForge-6.1.0.jar
+https://cdn.modrinth.com/data/nvQzSEkH/versions/yd8FKCmx/Jade-1.21.1-NeoForge-15.10.5.jar
+https://cdn.modrinth.com/data/u6dRKJwZ/versions/iiCpE7cU/jei-1.21.1-neoforge-19.27.0.343.jar
 https://cdn.modrinth.com/data/ordsPcFz/versions/NrSebcsG/kotlinforforge-5.11.0-all.jar
 https://cdn.modrinth.com/data/BZemjxZb/versions/EK0wJfqY/kubejsadditions-neoforge-1.21.1-6.0.0.jar
 https://cdn.modrinth.com/data/T38eAZQC/versions/1qmcLagN/kubejs-create-neoforge-2101.3.1-build.18.jar
